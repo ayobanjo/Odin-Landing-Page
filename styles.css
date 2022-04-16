@@ -35,6 +35,9 @@ a{
     align-items: center;
     flex-wrap: wrap;
 }
+#heroimg{
+    width: 400px;
+}
 .heroImg{
     order: 1;
 }
@@ -58,4 +61,23 @@ heroBtn{
     color: #fff;
     border: none;
     border-radius: 5px;
+}
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.infoBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    max-width: 150px;
+}
+img{
+    width: 100px;
+    height: 100px;
 }
