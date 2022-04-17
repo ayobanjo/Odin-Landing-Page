@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Helvetica, sans-serif;
+}
 
 header, footer{
     background-color: #1f2937;
@@ -61,6 +64,7 @@ heroBtn{
     color: #fff;
     border: none;
     border-radius: 5px;
+    padding: 5px 10px;
 }
 h2{
     font-size: 36px;
@@ -73,11 +77,63 @@ h2{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 .card{
     max-width: 150px;
+    border: 2px solid #3882f6;
+    border-radius: 5px;
 }
 img{
     width: 100px;
     height: 100px;
+    background-image: cover;
 }
+.quote{
+    background-color: #e5e7eb;
+    margin-bottom: 30px;
+
+}
+.quoteItem{
+    padding: 20px 40px;
+}
+
+.quoteText{
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.author{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #1f2937;
+}
+.action{
+    background-color: #3882f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+h5{
+    font-size: 18px;
+}
+.actBtn{
+    border: 1px solid #fff;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+footer{
+    color: #fff;
+    margin: 0 auto;
+}
+
+
