@@ -12,14 +12,15 @@ header, footer{
     
 }
 header{
-    padding: 25px 30px;
+    padding: 35px 55px;
     margin-bottom: 35px;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    
 }
 ul{
     list-style-type: none;
@@ -38,14 +39,20 @@ a{
 }
 .heroSection{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
    
 }
+.heroText{
+    max-width: 520px;
+}
+
 #heroimg{
     width: 400px;
-    height: auto;
+    height: 300px;
 }
 
 
@@ -58,16 +65,17 @@ a{
 .secText{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 8px 0px;
 }
 span{
     color: red;
 }
-heroBtn{
+.heroBtn{
     background-color: #3882f6;
     color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 8px 20px;
 }
 h2{
     font-size: 36px;
