@@ -9,7 +9,11 @@ body{
 
 header, footer{
     background-color: #1f2937;
-    padding: 5px 30px;
+    
+}
+header{
+    padding: 25px 30px;
+    margin-bottom: 35px;
 }
 nav{
     display: flex;
@@ -19,14 +23,14 @@ nav{
 }
 ul{
     list-style-type: none;
-    color: #e5e7eb;
     font-size: 18px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 14px;
 }
 a{
     text-decoration: none;
+    color: #e5e7eb;
 }
 .logo{
     font-size: 24px;
@@ -36,17 +40,16 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 40px;
+   
 }
 #heroimg{
     width: 400px;
+    height: auto;
 }
-.heroImg{
-    order: 1;
-}
-/* .heroText{
-    
-} */
+
+
+
 .mainText{
     font-size: 48px;
     font-weight: bolder;
@@ -75,20 +78,21 @@ h2{
 .infoBox{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 .card{
-    max-width: 150px;
-    border: 2px solid #3882f6;
-    border-radius: 5px;
+    max-width: 200px;
 }
-img{
-    width: 100px;
-    height: 100px;
-    background-image: cover;
+    
+.cardImg{
+    width: 100%;
+    height: 130px;
+    /* border: 2.5px solid #3882f6; */
+    border-radius: 8px; 
+   
 }
 .quote{
     background-color: #e5e7eb;
@@ -96,13 +100,18 @@ img{
 
 }
 .quoteItem{
-    padding: 20px 40px;
+    padding: 32px 43px;
+    max-width: 630px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .quoteText{
     text-align: center;
     font-style: italic;
-    font-size: 36px;
+    font-size: 20px;
     color: #1f2937;
 }
 .author{
@@ -119,11 +128,16 @@ img{
     max-width: 700px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
-    padding: 10px 30px;
+    padding: 21px 30px;
+    margin-bottom: 30px;
 }
 h5{
-    font-size: 18px;
+    font-size: 14px;
+}
+.actPar{
+    font-size: small;
 }
 .actBtn{
     border: 1px solid #fff;
@@ -131,11 +145,13 @@ h5{
     color: #fff;
     padding:7px 19px;
     border-radius: 5px;
-    margin-bottom: 30px;
 }
+   
 footer{
     color: #fff;
     margin: 0 auto;
+    text-align: center;
+    padding: 20px 40px;
 }
 
 
