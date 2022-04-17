@@ -119,6 +119,8 @@ img{
     max-width: 700px;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px 30px;
 }
 h5{
     font-size: 18px;
@@ -127,7 +129,7 @@ h5{
     border: 1px solid #fff;
     background-color: #3882f6;
     color: #fff;
-    padding: 5px 10px;
+    padding:7px 19px;
     border-radius: 5px;
     margin-bottom: 30px;
 }
